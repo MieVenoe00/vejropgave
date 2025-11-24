@@ -72,7 +72,7 @@ body {
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
   gap: 1rem;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 /* Weather card styling - now just a container */
