@@ -128,9 +128,9 @@ export const weatherIcons = {
     </g>
     </svg>
   `,
-
+  
   // Windy
-  vind: `
+    vind: `
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360.18 317.61">
         <defs><style>.cls-2{fill:#eff3fa} .cls-9{fill:#b9cbe3} </style></defs>  
             <path id="alm_sky-2" data-name="alm sky" class="cls-9" d="M326.85,179.33c0,23.47-19.03,42.5-42.5,42.5H33.32c3.29-28.35,20.41-47.66,45.01-49.47,8.38-.62,16.66,2.51,16.8,2.52-.72-1.98-2.31-6.22-2.6-10.94-1.15-18.73,11.48-32.62,30.22-33.85,13.43-.88,22.21,6.92,28.24,12.39.18-31.33,21.4-58.18,52.77-58.18s57,25.52,57,57c0,.92-.02,1.83-.06,2.73,6.76-4.55,14.89-7.19,23.65-7.19,23.47,0,42.5,19.02,42.5,42.5Z"/>
@@ -143,8 +143,8 @@ export const weatherIcons = {
         </svg> 
         `,
 
-  // overskyet
-  overskyet: `
+   // overskyet
+    overskyet: `
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360.18 317.61">
         <defs><style>.cls-7{fill:#a8bfe3}.cls-8{fill:#bed0e9} .cls-10{fill:#9ab3dd} </style></defs>  
             <g>
@@ -160,8 +160,8 @@ export const weatherIcons = {
         </svg> 
         `,
 
-  // snestorm
-  snestorm: `
+    // snestorm
+    snestorm: `
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360.18 317.61">
         <defs><style>.cls-7{fill:#a8bfe3}.cls-8{fill:#bed0e9} .cls-1{fill:#f9f9fc} </style></defs>  
             <g>
@@ -183,8 +183,8 @@ export const weatherIcons = {
             </g>
         </svg> `,
 
-  // sologregn
-  sologregn: `
+   // sologregn
+    sologregn: `
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360.18 317.61">
         <defs><style>.cls-5{fill:#f9d75e}.cls-7{fill:#a8bfe3}.cls-8{fill:#bed0e9} .cls-3{fill:#627aa0} </style></defs>  
             <g>
@@ -217,8 +217,8 @@ export const weatherIcons = {
             </g>
         </svg> `,
 
-  // tvivlsomt
-  tvivlsomt: `
+    // tvivlsomt
+    tvivlsomt: `
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360.18 317.61">
         <defs><style>.cls-7{fill:#a8bfe3}.cls-9{fill:#b9cbe3}</style></defs>  
             <path class="cls-9" d="M326.85,179.34c0,23.47-19.03,42.5-42.5,42.5H33.32c3.29-28.35,20.41-47.66,45.01-49.47,8.38-.62,16.66,2.51,16.8,2.52-.72-1.98-2.31-6.22-2.6-10.94-1.15-18.73,11.48-32.62,30.22-33.85,13.43-.88,22.21,6.92,28.24,12.39.18-31.33,21.4-58.18,52.77-58.18s57,25.52,57,57c0,.92-.02,1.83-.06,2.73,6.76-4.55,14.89-7.19,23.65-7.19,23.47,0,42.5,19.02,42.5,42.5Z"/>
@@ -232,42 +232,42 @@ export const weatherIcons = {
 // Map weather API conditions to icon names
 export const weatherConditionMap = {
   // OpenWeatherMap conditions
-  "clear sky": "sol",
-  "few clouds": "skymsol",
-  "scattered clouds": "tvivlsomt",
-  "broken clouds": "overskyet",
-  "overcast clouds": "skymsol",
-  "shower rain": "regn",
-  rain: "sologregn",
-  thunderstorm: "torden",
-  snow: "sne",
-  mist: "vind",
-  fog: "vind",
-
+  'clear sky': 'sol',
+  'few clouds': 'skymsol',
+  'scattered clouds': 'tvivlsomt',
+  'broken clouds': 'overskyet',
+  'overcast clouds': 'skymsol',
+  'shower rain': 'regn',
+  'rain': 'sologregn',
+  'thunderstorm': 'torden',
+  'snow': 'sne',
+  'mist': 'vind',
+  'fog': 'vind',
+  
   // Weather API codes (common)
-  "01d": "sol", // clear sky day
-  "01n": "sol", // clear sky night
-  "02d": "skymsol", // few clouds day
-  "02n": "skymsol", // few clouds night
-  "03d": "tvivlsomt", // scattered clouds
-  "03n": "tvivlsomt",
-  "04d": "overskyet", // broken clouds
-  "04n": "overskyet",
-  "09d": "rain", // shower rain
-  "09n": "rain",
-  "10d": "sologregn", // rain
-  "10n": "sologregn",
-  "11d": "torden", // thunderstorm
-  "11n": "torden",
-  "13d": "sne", // snow
-  "13n": "sne",
-  "50d": "vind", // mist
-  "50n": "vind",
+  '01d': 'sol',           // clear sky day
+  '01n': 'sol',           // clear sky night
+  '02d': 'skymsol',  // few clouds day
+  '02n': 'skymsol',  // few clouds night
+  '03d': 'tvivlsomt',        // scattered clouds
+  '03n': 'tvivlsomt',
+  '04d': 'overskyet',        // broken clouds
+  '04n': 'overskyet',
+  '09d': 'rain',          // shower rain
+  '09n': 'rain',
+  '10d': 'sologregn',          // rain
+  '10n': 'sologregn',
+  '11d': 'torden',  // thunderstorm
+  '11n': 'torden',
+  '13d': 'sne',          // snow
+  '13n': 'sne',
+  '50d': 'vind',        // mist
+  '50n': 'vind'
 };
 
 // Helper function to get icon by weather condition
 export function getWeatherIcon(condition) {
   const normalizedCondition = condition.toLowerCase();
-  const iconName = weatherConditionMap[normalizedCondition] || "cloudy";
+  const iconName = weatherConditionMap[normalizedCondition] || 'cloudy';
   return weatherIcons[iconName];
-}
+} 
