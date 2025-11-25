@@ -79,8 +79,8 @@ input {
 }
 
 #widget {
-  width: 60rem;
-  height: 60rem;
+  width: 55rem;
+  height: 55rem;
   background-color: var(--primary-color);
   border-radius: 40px;
   border: 0.7rem solid var(--border);
@@ -91,7 +91,7 @@ input {
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
   gap: 1rem;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 /* Weather card styling - now just a container */
