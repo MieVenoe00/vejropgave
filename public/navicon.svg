@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="vector" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220.5972 220.5972">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fad85f;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="110.2986" cy="110.2986" r="57"/>
+  <g>
+    <g>
+      <rect class="cls-1" x="105.2986" y="0" width="10" height="35" rx="5" ry="5"/>
+      <rect class="cls-1" x="105.2986" y="185.5972" width="10" height="35" rx="5" ry="5"/>
+    </g>
+    <g>
+      <rect class="cls-1" x="198.0972" y="92.7986" width="10" height="35" rx="5" ry="5" transform="translate(313.3957 -92.7986) rotate(90)"/>
+      <rect class="cls-1" x="12.5" y="92.7986" width="10" height="35" rx="5" ry="5" transform="translate(127.7986 92.7986) rotate(90)"/>
+    </g>
+  </g>
+  <g>
+    <g>
+      <rect class="cls-1" x="170.9171" y="27.1801" width="10" height="35" rx="5" ry="5" transform="translate(83.1185 -111.3057) rotate(45)"/>
+      <rect class="cls-1" x="39.6801" y="158.4171" width="10" height="35" rx="5" ry="5" transform="translate(137.4786 19.9313) rotate(45)"/>
+    </g>
+    <g>
+      <rect class="cls-1" x="170.9171" y="158.4171" width="10" height="35" rx="5" ry="5" transform="translate(424.7014 175.9171) rotate(135)"/>
+      <rect class="cls-1" x="39.6801" y="27.1801" width="10" height="35" rx="5" ry="5" transform="translate(107.8672 44.6801) rotate(135)"/>
+    </g>
+  </g>
+</svg>

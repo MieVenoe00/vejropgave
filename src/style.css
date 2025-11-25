@@ -79,8 +79,8 @@ input {
 }
 
 #widget {
-  width: 55rem;
-  height: 55rem;
+  width: 53rem;
+  height: 53rem;
   background-color: var(--primary-color);
   border-radius: 40px;
   border: 0.7rem solid var(--border);
@@ -118,6 +118,7 @@ input {
   color: var(--bluewhite-color);
   margin: 0;
   line-height: 1;
+  letter-spacing: 1px;
 }
 
 .condition {
@@ -142,12 +143,13 @@ input {
 }
 
 .city-section h2 {
-  font-size: clamp(2rem, 4rem, 6rem);
+  font-size: 5rem; /* Starting size, will be adjusted by JS */
   color: var(--white-color);
   margin: 0;
   font-weight: 600;
   text-align: center;
-  line-height: clamp(2.5rem, 4.5rem, 6.5rem);
+  line-height: 1.2;
+  
 }
 
 /* Details section - bottom left */
@@ -187,8 +189,9 @@ input {
   letter-spacing: 1px;
   font-weight: 500;
 
-   font-size: clamp(2rem, 2.2rem, 2.5rem);
-    line-height: clamp(1rem, 1.2rem, 1.6rem); 
+   font-size: 1.6rem;
+    line-height: 0.2rem; 
+    margin-top: 2rem;
   
 }
 
@@ -196,7 +199,7 @@ input {
   font-size: 2.5rem;
   color: var(--white-color);
   font-weight: bold;
-  font-size: clamp(2.5rem, 2.8rem, 3rem);
+  font-size: 2.8rem;
 }
 
 /* Weather icon - bottom right */
