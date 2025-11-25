@@ -123,11 +123,12 @@ body {
 }
 
 .city-section h2 {
-  font-size: 7rem;
+  font-size: clamp(2rem, 4rem, 6rem);
   color: var(--white-color);
   margin: 0;
   font-weight: 600;
   text-align: center;
+  line-height: clamp(2.5rem, 4.5rem, 6.5rem);
 }
 
 /* Details section - bottom left */

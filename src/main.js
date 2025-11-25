@@ -2,6 +2,7 @@
 import { weatherIcons, getWeatherIcon } from "./weatherIcons.js";
 const API_KEY = "7d7d91c7a4a22c8e8bb2501ab77012e9";
 
+
 async function fetchWeatherByLocation() {
   // Show loading state
   document.getElementById("widget").innerHTML = `
@@ -95,12 +96,12 @@ function displayWeather(data) {
     <div class="weather-card">
       <!-- Temperature section (top left) -->
       <div class="temperature-section">
-        <p class="temperature">${Math.round(data.main.temp)}°</p>
+        <h2 class="temperature">${Math.round(data.main.temp)}°</h2>
       </div>
       
       <!-- City name section (top right) -->
       <div class="city-section">
-        <h2>${data.name}</h2>
+        <h2 id="cityname">${data.name}</h2>
       </div>
       
       <!-- Details section (bottom left) -->
