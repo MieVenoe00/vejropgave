@@ -59,6 +59,25 @@ body {
   align-items: center;
 }
 
+#search {
+  margin-bottom: 1rem;
+  width: 20rem;
+}
+
+form, input {
+  width: 100%;
+}
+
+input {
+  padding: 0.8rem 1rem;
+  font-size: 1.2rem;
+  border: 0.2rem solid var(--border2);
+  border-radius: 10px;
+  background-color: var(--bluewhite-color);
+  font-family: "co-text", sans-serif;
+  font-weight: 400;
+}
+
 #widget {
   width: 60rem;
   height: 60rem;
@@ -149,6 +168,8 @@ body {
   gap: 2rem;
   height: 100%;
   justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
 }
 
 .detail-item {
@@ -156,20 +177,26 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
+  
 }
 
 .detail-label {
-  font-size: 1.2rem;
+  
   color: var(--bluewhite-color);
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 500;
+
+   font-size: clamp(2rem, 2.2rem, 2.5rem);
+    line-height: clamp(1rem, 1.2rem, 1.6rem); 
+  
 }
 
 .detail-value {
   font-size: 2.5rem;
   color: var(--white-color);
   font-weight: bold;
+  font-size: clamp(2.5rem, 2.8rem, 3rem);
 }
 
 /* Weather icon - bottom right */
@@ -235,23 +262,26 @@ body {
   }
 
   .temperature {
-    font-size: 3.5rem;
+    font-size: clamp(7rem, 8rem, 9rem);
   }
 
   .condition {
-    font-size: 1.2rem;
+    font-size: clamp(0.8rem, 1.5rem, 2rem);
+    margin-bottom: 0;
   }
 
   .city-section h2 {
-    font-size: 2.5rem;
+    font-size: clamp(2rem, 3rem, 5rem);
+    line-height: clamp(2.5rem, 3.5rem, 5.5rem); 
   }
 
   .detail-label {
-    font-size: 1rem;
+    font-size: clamp(1.2rem, 1.4rem, 1.8rem);
+    line-height: clamp(1rem, 1.2rem, 1.6rem);
   }
 
   .detail-value {
-    font-size: 1.8rem;
+    font-size: clamp(1.4rem, 1.6rem, 2rem);
   }
 }
 
@@ -283,7 +313,8 @@ body {
   }
 
   .city-section h2 {
-    font-size: 2rem;
+    font-size: clamp(0.9rem, 1.2rem, 2rem);
+    line-height: clamp(1rem, 1.4rem, 2.1rem);
   }
 
   .details {

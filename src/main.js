@@ -56,7 +56,7 @@ async function fetchWeatherByCoords(lat, lon) {
 
   try {
     const response = await fetch(
-      `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`
+      `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric&lang=da`
     );
 
     if (!response.ok) {
@@ -119,7 +119,7 @@ function displayWeather(data) {
             <span class="detail-label">Feels Like</span>
             <span class="detail-value">${Math.round(
               data.main.feels_like
-            )}°C</span>
+            )}°</span>
           </div>
         </div>
       </div>
