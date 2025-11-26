@@ -7,25 +7,15 @@ export const weatherIcons = {
       <defs><style>.cls-5{fill:#f9d75e;}</style></defs>
       <g>
         <circle class="cls-5" cx="180.09" cy="153.06" r="57"/>
-        <g>
-          <g>
+        <g id="solstriber">
             <rect class="cls-5" x="175.09" y="42.77" width="10" height="35" rx="5" ry="5"/>
             <rect class="cls-5" x="175.09" y="228.36" width="10" height="35" rx="5" ry="5"/>
-          </g>
-          <g>
             <rect class="cls-5" x="267.89" y="135.56" width="10" height="35" rx="5" ry="5" transform="translate(425.95 -119.82) rotate(90)"/>
             <rect class="cls-5" x="82.29" y="135.56" width="10" height="35" rx="5" ry="5" transform="translate(240.35 65.77) rotate(90)"/>
-          </g>
-        </g>
-        <g>
-          <g>
             <rect class="cls-5" x="240.71" y="69.95" width="10" height="35" rx="5" ry="5" transform="translate(133.8 -148.13) rotate(45)"/>
             <rect class="cls-5" x="109.47" y="201.18" width="10" height="35" rx="5" ry="5" transform="translate(188.16 -16.89) rotate(45)"/>
-          </g>
-          <g>
             <rect class="cls-5" x="240.71" y="201.18" width="10" height="35" rx="5" ry="5" transform="translate(574.08 199.57) rotate(135)"/>
             <rect class="cls-5" x="109.47" y="69.95" width="10" height="35" rx="5" ry="5" transform="translate(257.25 68.34) rotate(135)"/>
-          </g>
         </g>
       </g>
     </svg>

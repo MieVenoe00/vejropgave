@@ -176,6 +176,7 @@ function displayWeather(data) {
   // Auto-scale city name to fit container
   autoScaleCityName();
   autoScaleTemp();
+
 }
 
 function autoScaleCityName() {
